@@ -1,0 +1,65 @@
+.demo{ background: #F2F2F2; }
+.form-container{
+    background-color: #e8ddbf;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 60px 100px 100px;
+    border-radius: 50%;
+}
+.form-container .title{
+    color: #666157;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    display: inline-block;
+    position: relative;
+}
+.form-container .form-horizontal .form-group{
+    font-size: 0px;
+    margin: 0 0 15px;
+}
+.form-container .form-horizontal .form-control{
+    color: #666157;
+    background: #E6E6E6;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 45px;
+    padding: 6px 30px;
+    border-radius: 50px;
+    box-shadow: inset -3px -3px 10px #eee;
+    border: none;
+    border-top: 2px solid #CECECE;
+    border-left: 2px solid #CECECE;
+}
+.form-container .form-horizontal .form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-container .form-horizontal .form-control::placeholder{
+    color: #666157; 
+    font-weight: 600;  
+    font-style: italic;
+}
+.form-container .form-horizontal .btn{
+    color: #fff;
+    background-color: #e6a760;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset -3px -3px 10px #bd841b;
+    transition: all 0.3s ease 0s;
+}
+.form-container .form-horizontal .btn:hover{ letter-spacing: 3px; }
+.form-container .form-horizontal .btn:focus{ outline: none; }
+@media only screen and (max-width:479px){
+    .form-container{
+        padding: 50px 50px 70px;
+        border-radius: 30%;
+    }
+}
